@@ -1,0 +1,883 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فاز اول دوره هوش مصنوعی آکادمی یاسان</title>
+    <meta name="description" content="Your website description">
+    <meta name="keywords" content="your, keywords, here">
+    <meta name="author" content="Your Name">
+    <link rel="icon" href="https://yasanacademy.ir/wp-content/uploads/2020/11/cropped-favio-8_58936acf31c52be13fe91cf786711d22_3-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://yasanacademy.ir/wp-content/uploads/2020/11/cropped-favio-8_58936acf31c52be13fe91cf786711d22_3-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://yasanacademy.ir/wp-content/uploads/2020/11/cropped-favio-8_58936acf31c52be13fe91cf786711d22_3-180x180.png" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsiveStyle.css">
+    
+</head>
+
+<body>
+    <audio id="correct_audio_sound_effect" class="audio_sound_effect">
+        <source src="sounds/correct-6033.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="failed_audio_sound_effect" class="audio_sound_effect">
+        <source src="sounds/fail-144746.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <header>
+        <nav class="top-nav">
+            <div class="scroll-wrapper" id="scroll_wrapper">
+
+            </div>
+            <div class="current-active-part">
+                <p class="current-active-part-txt small">تاریخچه هوش مصنوعی</p>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="one-col-container course-part" data-section-title="آلن تورینگ">
+            <p class="text">
+                فاز را با مطرح کردن یک سوال جالب آغاز میکنیم.
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn">قسمت بعدی</button>
+            </div>
+        </div>
+        <section class="two-col-container course-part" data-section-title="آلن تورینگ">
+            <div class="half-col right">
+                <h2 class="section-title">آیا یک کامپیوتر می‌تواند فکر کند؟</h2>
+                <p class="text">
+                    در سال ۱۹۵۰،
+                        آلن تورینگ
+                        مقاله
+                    دانشمند بزرگ کامپیوتر، مقاله‌ای بسیار مهم با عنوان
+                    «ماشین‌های محاسباتی و هوش» منتشر کرد.
+                </p>
+                <p class="text">
+                    در این مقاله،
+                    او سوالی فوق‌العاده جالب مطرح می‌کند:
+                    <br>
+                    <b>
+                        آیا ماشین‌ها می‌توانند فکر کنند؟
+                    </b>
+                </p>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn">قسمت بعدی</button>
+                </div>
+            </div>
+            <div class="half-col left">
+                <img class="w-75 border-2 shadow" src="static/images/thinking.jpeg" alt="">
+            </div>
+        </section><!-- end of one-col-continer -->
+
+        <section class="two-col-container course-part" data-section-title="آلن تورینگ">
+            <div class="half-col right">
+                <p class="text">
+                    این سوال، آغازگر بحث‌ها و پژوهش‌های فراوانی در زمینه‌ی هوش مصنوعی شد که تا به امروز ادامه دارد.
+                </p>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn">قسمت بعدی</button>
+                </div>
+            </div>
+            <div class="half-col left">
+                <figure>
+                    <img class="border-2 shadow" src='static/images/turing.webp' alt="تصویر آلن تورینگ ریاضی دان ودانشمند رایانه انگلیسی">
+                    <figcaption>
+                        تصویر آلن تورینگ (Alan Turing)، دانشمند بریتانیایی علوم کامپیوتر که به عنوان پدر علوم کامپیوتر و هوش مصنوعی شناخته می‌شود.
+                    </figcaption>
+                </figure>
+            </div>
+        </section><!-- end of one-col-continer -->
+
+        <section class="one-col-container course-part" data-section-title="آزمون تورینگ">
+            <div class="sh-quiz">
+                <p class="sh-question">
+                    خودتان هم سعی کنید به این سوال فکر کنید. آیا یک کامپیوتر میتواند فکر کند؟
+                </p>
+                <div>
+                    <button class="short-quiz-btn">بله قطعا</button>
+                    <button class="short-quiz-btn">غیر ممکن است</button>
+                </div>
+                <p class="sh-answer"></p>
+            </div>
+        </section>
+
+        <div class="one-col-container course-part" data-section-title="آزمون تورینگ">
+            <div class="goto_next-section">
+                <button class="goto-next-btn">قسمت بعدی</button>
+            </div>
+        </div>
+
+        <section class="two-col-container course-part" data-section-title="آزمون تورینگ">
+            <div class="half-col right">
+                <h2 class="section-title">آزمون تورینگ یا بازی تقلید</h2>
+                <p class="text">
+                    آلن تورینگ در مقاله‌ی خود برای پاسخ به این سوال که
+                    "آیا ماشین‌ها می‌توانند فکر کنند؟" پیشنهاد بسیار جالبی را مطرح کرد:
+                    <b>
+                        بازی تقلید
+                    </b>
+                        .
+                </p>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn"> قسمت بعدی</button>
+                </div>
+            </div>
+            <div class="half-col left">
+                <img class="w-75 border-2 shadow" src="static/images/imitation.jpeg" alt="">
+            </div>
+
+        </section>
+
+        <section class="two-col-container course-part" data-section-title="آزمون تورینگ">
+            <div class="half-col right">
+                <p class="text bold">
+                    تقلید کامپیوتر از انسان در آزمون تورینگ
+                </p>
+                <p class="text">
+                    در این بازی، یک انسان به عنوان قاضی عمل می‌کند و
+                    با دو نفر دیگر که یکی انسان و
+                    دیگری کامپیوتر است، از طریق متن چت می‌کند.
+                </p>
+                <p class="text">
+                    <b>
+                        نکته مهم:
+                    </b>
+                    <br>
+                    قاضی نمی‌داند کدام یک انسان و کدام یک کامپیوتر است.
+                </p>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn"> قسمت بعدی</button>
+                </div>
+            </div>
+            <div class="half-col left">
+                <img class="w-75 border-2 shadow" src='static/images/chatting_with_a_judge.jpeg' alt="تقلید کامپیوتر از انسان در آزمون تورینگ">
+            </div>
+        </section>
+
+        <section class="two-col-container course-part" data-section-title="آزمون تورینگ">
+            <div class="half-col right">
+                <p class="text">
+                        هدف کامپیوتر این است
+                        که قاضی را متقاعد کند که او انسان است.
+                        <br>
+                        اگر کامپیوتر بتواند قاضی را فریب دهد،
+                        در آزمون تورینگ قبول شده و
+                        می‌توان گفت که توانایی تفکر دارد.
+                </p>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn"> قسمت بعدی</button>
+                </div>
+            </div>
+            <div class="half-col left">
+                <img class="w-75 border-2 shadow" src='static/images/cute_robot.jpeg' alt="تقلید کامپیوتر از انسان در آزمون تورینگ">
+            </div>
+        </section>
+
+        <section class="two-col-container course-part" data-section-title="شرایط و نحوه اجرای آزمون تورینگ">
+            <div class="half-col right">
+                <p class="text bold">
+                    یکبار دیگر مرور کنیم...
+                </p>
+                <ul class="text">
+                    <li>
+                        <b>
+                            ارتباط متنی:
+                        </b>
+                        تمام ارتباطات بین قاضی و شرکت‌کنندگان از طریق متن انجام می‌شود تا ظاهر فیزیکی یا صدا تأثیری در قضاوت نداشته باشد.
+                    </li>
+                    <li>
+                        <b>
+                            قاضی بی‌اطلاع:
+                        </b>
+                        قاضی از قبل نمی‌داند کدام یک از شرکت‌کنندگان انسان و کدام یک کامپیوتر است.
+                    </li>
+                    <li>
+                        <b>
+                            هدف کامپیوتر:
+                        </b>
+                        کامپیوتر تلاش می‌کند تا با پاسخ‌های خود، قاضی را متقاعد کند که او انسان است.
+                    </li>
+                    <li>
+                        <b>
+                            معیار موفقیت:
+                        </b>
+                        اگر کامپیوتر بتواند قاضی را به اشتباه بیندازد و او را متقاعد کند که انسان است، در آزمون تورینگ موفق شده است.
+                    </li>
+                </ul>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn"> قسمت بعدی</button>
+                </div>
+            </div>
+            <div class="half-col left">
+                <img class="w-75 border-2 shadow" src='static/images/robot_man_judge.jpeg' alt="">
+            </div>
+        </section>
+
+        <section class="one-col-container course-part" data-section-title="آزمون تورینگ">
+            <p class="text">
+                بازی ساده است قاضی از طریق صفحه کلید و مانیتور با بازیکنان ارتباط برقرار می‌کند. هدف قاضی این است که تشخیص دهد با چه کسی در حال صحبت است:
+                <br>
+                <b>
+                    انسان
+                </b>
+                یا
+                <b>
+                    کامپیوتر
+                </b>
+                    .
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section>
+
+        <section class="two-col-container course-part" data-section-title="آزمون تورینگ">
+            <div class="half-col right">
+                <p class="text">
+                    اگر پس از چند دقیقه مکالمه، یک قاضی نتواند تشخیص دهد که
+                    آیا با یک انسان یا یک کامپیوتر در حال گفتگو است،
+                    آنگاه می‌توان گفت که آن کامپیوتر،
+                    آزمون تورینگ را با موفقیت پشت سر گذاشته است.
+                </p>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn"> قسمت بعدی</button>
+                </div>
+            </div>
+            <div class="half-col left">
+                <img class="w-75 border-2 shadow" src="static/images/Turing_test_diagram.png" alt="">
+            </div>
+        </section>
+
+        <section class="one-col-container course-part" data-section-title="آزمون تورینگ">
+            <p class="text bold">
+                به زبان ساده تر:
+            </p>
+            <p class="text">
+                در این آزمون، یک کامپیوتر با یک انسان در یک مسابقه گفتگو شرکت می‌کند. اگر کامپیوتر بتواند خود را به اندازه کافی شبیه انسان نشان دهد که قاضی نتواند تشخیص دهد که با یک انسان یا یک کامپیوتر در حال صحبت است، گفته می‌شود که کامپیوتر آزمون تورینگ را گذرانده است.
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section>
+
+        <section class="one-col-container course-part" data-section-title="آزمون تورینگ">
+            <div>
+                <h2 class="section-title">سخن پدیدآورندگان محتوا</h2>
+                <p class="text">
+    آزمون تورینگ یک آزمایش ساده و عملی است که می‌تواند برای سنجش توانایی ماشین‌ها در تفکر استفاده شود. با این حال به این آزمایش انتقاداتی وارد شده است.
+                    برخی از دانشمندان معتقدند که آزمون تورینگ تنها توانایی ماشین‌ها در تقلید از تفکر انسان را می‌سنجد،
+                    و نمی‌تواند توانایی آن‌ها در تجربه تفکر واقعی را ارزیابی کند.
+                </p>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn"> قسمت بعدی</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- <section class="one-col-container course-part" data-section-title="آزمون تورینگ">
+            <section class="quiz quiz-part">
+
+                <p class="question-text">
+                    یک کامپیوتر در چه حالتی می‌تواند در آزمون تورینگ موفق شود؟
+                </p>
+                <div class="options body">
+
+                    <label class="q_option">اگر بتواند به سوالات قاضی به طور کامل و جامع پاسخ دهد
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="q_option"> اگر بتواند در زمینه‌های مختلف مانند فلسفه، هنر و علوم عملکرد خوبی داشته باشد
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="q_option">اگر بتواند احساسات انسانی را درک و پاسخ دهد
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="q_option">اگر بتواند رفتاری هوشمندانه را تقلید کند که برای قاضی قابل تشخیص نباشد
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="submit-answer">
+                    <button class="submit-quiz-btn">
+                        <span class="correct emoji_item">&#127881; </span>
+                        <span class="incorrect emoji_item">&#128584;</span>
+                        <span class="submit_btn_text"> ثبت پاسخ</span>
+                    </button>
+
+                    <button class="show-explanation-btn">نمایش پاسخ</button>
+                </div>
+            </section>
+            <section class="quiz quiz-answer">
+                <div class="quiz-answer-txt body">
+                    <p class="text">
+                    با توجه به توضیحاتی که در ابتدای این قسمت گفته شد،
+                        هوش مصنوعی به عنوان "هنر ساخت کامپیوتر یا ماشین هایی است که کارهایی را انجام می دهند
+                        که فقط انسان ها قادر به انجام آن هستند" تعریف می شود.
+                        این تعریف نشان می دهد که هوش مصنوعی به توانایی ماشین ها در انجام کارهایی گفته می شود
+                        که تنها انسان ها از پس آن بر می آیند، مانند حل مسائل، یادگیری و تشخیص الگوها.
+                    بنابراین
+                        گزینه های 1و 2و3 همگی شامل مواردی هستند که انتظار داریم هوش مصنوعی قادر به انجام ان ها باشد.
+                    </p>
+
+                </div>
+                <div class="qe-submit-section">
+                    <button class="show_question return-to-question-btn">بازگشت به سوال</button>
+                </div>
+
+            </section>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section> -->
+
+        <section class="two-col-container course-part" data-section-title="هوش مصنوعی (Artificial Intelligence)">
+            <div class="half-col right">
+                <h2 class="section-title">
+                    تعریف هوش مصنوعی (Artificial Intelligence)
+                </h2>
+
+                <p class="text">
+                    هوش مصنوعی یا به اختصار AI، حوزه‌ای از دانش و مهندسی است که به ساخت رایانه‌ها یا ماشین‌هایی می‌پردازد که قادر به انجام وظایفی هستند که پیش از این تنها توسط انسان‌ها انجام می‌شدند. این وظایف شامل توانایی‌هایی همچون حل مسئله (problem solving)، یادگیری (learning)، تشخیص گفتار (speech recognition)، صحبت کردن، و تشخیص اشیاء (object detection) می‌شود.
+                </p>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn"> قسمت بعدی</button>
+                </div>
+            </div>
+            <div class="half-col left">
+                <img class="w-75 border-2 shadow" src='static/images/delivering_post.jpeg' alt="">
+            </div>
+        </section><!-- end of one-col-continer -->
+
+        <section class="one-col-container course-part" data-section-title="هوش مصنوعی (Artificial Intelligence)">
+            <h2 class="section-title">تعریف تخصصی هوش مصنوعی</h2>
+            <p class="text">
+                هوش مصنوعی به توانایی ماشین ها در زمینه یادگیری و تشخیص الگوها و استفاده از این الگو ها برای تصمیم گیری و انجام پیش بینی در موقعیت های جدید گفته میشود.
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of one-col-continer -->
+
+        <section class="two-col-container course-part" data-section-title="انواع هوش مصنوعی">
+            <div class="half-col right">
+                <h2 class="section-title">سطوح مختلف هوش مصنوعی بر اساس  توانایی ها</h2>
+                <p class="text">
+                    با توجه به کارایی و قابلیت های سیستم های مبتنی بر هوش مصنوعی، می توان آن ها را در سه سطح دسته بندی کرد.
+                </p>
+                <p class="text bold">
+                    هوش مصنوعی ضعیف (Artificial Narrow Itelligence)
+                </p>
+                <p class="text bold">
+                    هوش مصنوعی عمومی (Artificial General Itelligence)
+                </p>
+                <p class="text bold">
+                    هوش مصنوعی فوق العاده (Artificial Super Itelligence)
+                </p>
+                <p class="text">
+                    در ادامه به تعریف و بررسی هر کدام از این سطوح خواهیم پرداخت.
+                </p>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn"> قسمت بعدی</button>
+                </div>
+            </div>
+            <div class="half-col left">
+                <img class="w-75 border-2 shadow" src="static/images/3_robots.jpeg" alt="">
+            </div>
+            <div class="shadow"></div>
+        </section><!-- end of one-col-continer -->
+
+        <section class="one-col-container course-part" data-section-title="انواع هوش مصنوعی">
+            <h2 class="section-title">هوش مصنوعی ضعیف (Artificial Narrow Itelligence)</h2>
+            <p class="text">
+                این نوع از هوش مصنوعی فقط برای انجام یک وظیفه خاص و مشخص طراحی و برنامه ریزی شده است.
+            </p>
+            <p class="text">
+                مثلا هوش مصنوعی ای که میتواند بازی شطرنج را انجام دهد توانایی تشخیص تصویر یا مسیریابی یا حتی انجام بازی دیگری مثل بازی Go  را ندارد. یا یک هوش مصنوعی که در یک اپلیکیشن نقشه میتواند مسیریابی انجام دهد(پیدا کردن کوتاه ترین مسیر بین مبدا و مقصد) قادر به انجام بازی شطرنج یا تشخیص متن نیست.
+            </p>
+            <p class="text">
+                با توجه به این موارد  به این دسته، هوش مصنوعی ضعیف نیز می گویند زیرا نسبت به انسان از هوش کمتری برخوردار است.
+            </p>
+            <p class="text">
+                در نظر داشته باشید که با ترکیب چند هوش مصنوعی محدود میتوان یک هوش مصنوعی محدود اما با قابلیت های بیشتر ساخت. مثلا هوش مصنوعی chatgpt  قابلیت های مختلف از جمله تولید متن، تشخیص گفتار، تشخیص تصاویر را داراست اما همچنان جز دسته بندی هوش مصنوعی ضعیف قرار میگیرد.
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section>
+
+        <section class="one-col-container course-part" data-section-title="انواع هوش مصنوعی">
+            <h2 class="section-title">هوش مصنوعی عمومی (Artificial General Itelligence)</h2>
+            <p class="text">
+                زماني كه يك ماشين بتواند مانند انسان عمل کند(هوشی هم تراز با هوش انسان داشته باشد)  و حتی در بعضی جاها عملکردی بهتر از انسان ها داشته باشد، در دسته بندی هوش مصنوعی عمومی  قرار میگیرد . به عنوان مثال از این نوع هوش مصنوعی میتوان ماشینی را تصور کرد که می تواند تمامی بازی ها را انجام دهد، با شما صحبت کند ، احساسات شما را درک کند و خودش احساسات داشته باشد، چیزهای جدید را به صورت مستقل یاد بگیرد.             
+            </p>
+            <p class="text">
+                به هوش مصنوعی عمومی ، هوش مصنوعی قوی نیز گفته می شود  به این دلیل از میزان هوش بسیار بالایی برخوردار است و مانند انسان ها فكر و عمل مي كند.</p>
+            <p class="text">
+                هنوز هيچ ماشینی با قابلیت های هوش مصنوعی عمومی ساخته نشده است، اما در حال حاضر تحقیقات و تلاش های زیادی برای طراحی سیستم هایی در  این سطح از هوشمندی در حال انجام است 
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section>
+
+        <section class="course-part video" data-section-title="انواع هوش مصنوعی">
+            <div class="video-sec-container">
+                <video class="video-sec" id="plyer2" playsinline controls data-poster='static/images/images.jpg'>
+                    <source src="static/videos/Ilya the AI scientist shaping the world.mp4" type="video/mp4" />
+
+                    <!-- <track kind="captions" label="زیرنویس" src="/path/to/captions.vtt" srclang="en" default /> -->
+                </video>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn goto-next-video"> قسمت بعدی</button>
+                </div>
+            </div>
+            
+            <div class="img-overlay" data-img-overlay='static/images/ilya-removebg.png'>
+            </div>
+            <div class="qoute">
+                <p class="text">
+                    تصویری که مشاهده میکنید مربوط به ایلیا سوتسکور (به انگلیسی: Ilya Sutskever) یکی از بنیان گزاران شرکت openAI که همگی آن را با محصول Chat GPT میشناسیم است.ایلیا را میتوان یکی از مهم ترین و تاثیر گذارترین افراد در پیشرفت فوق العاده هوش مصنوعی در چند سال اخیر دانست. او در حال حاضر به صورت جدی در حال پژوهش برای رسیدن به هوش مصنوعی عمومی است.بسیاری بر این باور اند که احتمالا در آینده ای نه چندان دور شاهد دستیابی او و تیمش در openAI به فناوری فوق العاده هوش مصنوعی عمومی باشیم.
+
+                </p>
+                <p class="qoute-text">
+                    <span class="qoute-mark">&#8217;</span>
+                    در این ویدیو تعریف و ویژگی های AGI را از زبان این دانشمند میشنویم
+                    <span class="qoute-mark">&#8216;</span>
+                    <!-- 5:35 to 6:22 -->
+                </p>
+                <p class="qoute-name">ایلیا سوتکاور</p>
+                <p class="qoute-place">OpanAI</p>
+                <button class="qoute-btn green-btn">نمایش ویدیو</button>
+            </div>
+        </section><!-- end of section -->
+
+        <section class="one-col-container course-part" data-section-title="انواع هوش مصنوعی">
+            <h2 class="section-title">هوش مصنوعی فوق العاده (Artificial Super Itelligence)</h2>
+            <p class="text">
+                یک ماشین با قابلیت هوش مصنوعی خارق العاده یا فرابرتر توانایی انجام کارهایی را دارد که انسان ها از انجام آن عاجزند ]از لحاظ قدرت فکری و عملی[ و از هر لحاظ  نسب به ذهن انسانی برتری دارد و قوی تر است، به عنوان مثال ماشینی را تصور کنید که قادر به حل تمای مسائل ممکن بشری(مسائل شناخته شده یا ناشناخته) است یا قادر به خلق چیزهای جدید است یا قادر به ساخت ماشین هایی شبیه به خود یا حتی قدرتمند تر از خود است. 
+            </p>
+            <p class="text">
+                تصور وجود چنین ماشین هایی برای ما عجیب و شاید تا حدودی ترسناک باشد. 
+                <span>&#128552;</span>
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+
+        <section class="one-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            <h2 class="section-title"> کاربردهای هوش مصنوعی</h2>
+            <img class="border-2 shadow" src='static/images/ai_apps.jpg' alt="">
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+
+        <section class="one-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            <p class="text">
+                هوش مصنوعی تحول آفرین ترین فناوری عصر ماست.و امروزه بر جنبه های مختلف زندگی ما و نحوه انجام کارها تاثیر بسزایی گذاشته است. همه ما درزندگی روزمره خود همواره در حال استفاده از فناوری های مختلف مبتنی بر هوش مصنوعی هستیم مواردی مانند اپلیکیشن های های چت هوشمند، سیستم های تولید عکس از متن، سیستم های تکمیل کلمات در صفحه کلید موبایل های هوشمند، سیستم های باز کردن قفل با اثر انگشت یا تصویر در موبایل های هوشمند، اتومبیل های خودران، دستیار های صوتی هوشمند، سیستم های پیشنهاد محصولات در فروشگاه های آنلاین، ربات های معامله گر در بازارهای مالی همه و همه نمونه هایی از سیستم های مبتنی بر هوش مصنوعی هستند.
+            </p>
+            <p class="text">
+                در ادامه به صورت جزئی تر چند نمونه از قابلیت ها و کاربردهای هوش مصنوعی در دنیای واقعی اشاره میکنیم. 
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+
+        <section class="one-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            <h2 class="section-title">هوش مصنوعی به عنوان بازیکن در بازی های مختلف</h2>
+            <p class="text">
+                هوش مصنوعی ای که میتواند در بازی هایی از قبیل شطرنج , پیروز شود
+            </p>
+            <p class="text">
+                کامپوتر Deep Blue متعلق به شرکت ibm در سال 1997 توانست قهرمان جهان در رشته شطرنج در آن زمان را شکست دهد
+            </p>
+            <p class="text">
+                برنامه AlphaGo که در شرکت DeepMind گوگل ساخته شده بود در سال 2016 تاریخسازی کرد و قهرمان جهان در این رشته یعنی lee Sedol را شکست داد.
+            </p>
+            <p class="text">
+                یا در بسیاری از بازی های ویدیویی آنلاین امروزی که از هوش مصنوعی برای به چالش کشیدن مهارت بازیکنان در گیم پلی و یا استفاده از هوش مصنوعی برای ساخت های پلیر های مجازی که توانایی رقابت و همکاری با بازیکنان واقعی را دارند.
+            </p>
+            <p class="text">به لینک زیر مراجعه کنید و به رقابت با ربات بازیکن شطرنج به نام MAIA بپردازید</p>
+            <p class="text">
+                <a href="https://lichess.org/">MAIA chess</a>
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+
+        <section class="one-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            <h2 class="section-title">ربات های خودران</h2>
+            <p class="text">
+                اتومبیل های خودرانی را در نظر بگیرد که بدون نیاز به انسان به عنوان راننده مسیر حرکت از یک نقطه مبدا به نقطه ای دیگر را بپیمایند   
+            </p>
+            <p class="text">
+                برای مثال شرکت TESLA در حال کار بر روی توسعه اتومبیل های خودران خود است که از فناوری به نام TESLA AOUTOPILOT استفاده میکند
+            </p>
+           
+            
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+
+        <section class="one-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            <p class="text">
+                شرکت Amazon برای تحویل بسته محصولات به مشتریان خود از پهباد های هوشمند خودران استفاده میکند
+            </p>
+            <figure>
+                <img class="w-75 border-2 shadow" src='static/images/primeAir.jpg' alt="amazone prime air drone">
+                <figcaption>تصویری از پهباد های هوشمند خودران متعلق به شرکت آمازون</figcaption>
+            </figure>
+            
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+
+        <section class="two-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            <div class="half-col right">
+                <p class="text">
+                    در ویدیویی که توسط شرکت تسلا منتشر شده است  مشاهده می شود که اتومبیل با استفاده از سیستم خودران هوشمند به نام Tesla Autopilot بدون دخالت راننده میتواند مسیر طولانی و پیچیده ای را بدون هیچ اتفاقی طی کند
+                </p>
+                <div class="goto_next-section">
+                    <button class="goto-next-btn"> قسمت بعدی</button>
+                </div>
+            </div>
+            <div class="half-col left">
+                <video class="video-sec" id="plyer2" playsinline controls data-poster='static/images/TeslaCar.webp'>
+                    <source src="static/videos/TeslaAOutopilot.mp4" type="video/mp4" />
+
+                    
+                </video>
+                
+            </div>
+        </section><!-- end of section sel driving car video -->
+
+        <section class="one-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            <h2 class="section-title">تولید تصویر با استفاده از عکس</h2>
+            <p class="text">
+                با استفاده از این برنامه ها میتوانید یک توصیف متنی از تصویر داشته باشید و با استفاده از این نوع فناوری تصویر مرتبط با آن را مشاده کنید
+            </p>
+            <p class="text">
+                برنامه هایی مانند DALL-E، Midjourney یا Satble Diffusion قابلیت تبدیل متن به تصویر را دارند
+            </p>
+            <p class="text">
+                لینک وب سایت bing image generator که به صورت رایگان در دسترس است
+            </p>
+            <p class="text">
+                <a href="https://designer.microsoft.com/image-creator">bing image generator</a>
+            </p>
+            
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+
+        <section class="one-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            
+            <p class="text">
+              مثلا در تصویر پایین متن زیر را به عنوان ورودی به bing image generator داده ایم و تصویری که به عنوان خروجی تولید کرده است به شکل زیر است
+            </p>
+            <p class="dir-ltr txt-center border-1 shadow formula bg-yellow">
+                <span class="formula-text">a panda bear baking a cake in a sunny kitchen, digital art</span>
+                <span class="label bg-green border-1 shadow">propmt متن</span>
+            </p>
+            
+            <figure>
+                <img class="border-2 shadow" src='static/images/panda.png' alt="تصویر تولید شده توسط هوش مصنوعی">
+                <figcaption>تصویری از یک پاندا که مشغول درست کردن کیک است</figcaption>
+            </figure>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+        <section class="one-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            <h2 class="section-title">تشخیص و ترجمه متن، صدا و تصویر</h2>
+            <p class="text">
+                یکی از کاربردهای جالب هوش مصنوعی توانایی ترجمه متون مختلف، تشخیص گفتار، تبدیل گفتار به متن، و تبدیل متن به گفتار و در نهایت ترجمه گفتار به گفتار است
+            </p>
+            <p class="text">
+                به عنوان نمونه سیستم SeamlessM4T محصول شرکت متا قابلیت هایی مانند ترجمه متن به یک زبان به زبانی دیگر،تبدیل متن به گفتار، تبدیل گفتار به متن و همچنین ترجمه گفتار از یک زبان به گفتار در زبان دیگر را داراست
+            </p>
+            <p class="text">
+                میتوانید در لینک های زیر از این سرویس استفاده کنید
+            </p>
+            <p class="text">
+                <a href="https://huggingface.co/spaces/facebook/seamless_m4t">SeamlessM4T on huggingface</a>
+            </p>
+            <p class="text">
+                <a href="https://seamless.metademolab.com/">Metas SeamlessM4T demo</a>
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+        
+        <section class="one-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            <h2 class="section-title">ربات های چت هوشمند</h2>
+            <p class="text">
+                ربات های چت که با استفاده از مدل های زبانی بزرگ(LLM) قادر به مکالمه،کد نویسی، نوشتن مقاله، سرودن شعر و ترانه و  پاسخ به سوالات در حوزه های مختلف هستند. ربات های چت هوشمند امروزی علاوه بر متن از قابلیت درک تصاویر نیز برخوردارند و در آینده ای بسیار نزدیک این ربات ها قابلیت درک ویدیو و مکالمه صوتی را نیز خواهند داشت. 
+            </p>
+            <p class="text">
+                در مثال پایین از ربات چت Gemini شرکت گوگل خواسته شده داستانی کوتاه با مضمون شهامت و با سبک نوشتاری ارنست همینگو] نویسنده معروف آمریکایی[ بنویسد: پاسخ در تصویر زیر امده است.
+            </p>
+            <figure>
+                <img class="w-75 border-2 shadow" src='static/images/hemingwa.png' alt="تصویر تولید شده توسط هوش مصنوعی">
+                <figcaption>هوش مصنوعی gemini شرکت google </figcaption>
+              </figure>
+           
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+        <section class="one-col-container course-part" data-section-title="کاربردهای هوش مصنوعی">
+            <h2 class="section-title">پزشکی و سلامت </h2>
+            <p class="text">
+                در حوزه  پزشکی و سلامت الگوریتم های AI دقت بسیار بالایی در تشخیص تومور های سرطانی از تصاویر رادیولوژی دارند به گونه ای که دقت آن ها حتی از بهترین پزشکان در این حوزه بیشتر است.
+            </p>
+            <figure>
+                <img class="w-75 border-2 shadow" src='static/images/ai_cancer diagnosis.webp' alt="تصاویر بافت تومور هاس سرطانی">
+                <figcaption>ابزارهای هوش مصنوعی می‌توانند به بهبود نحوه تشخیص سرطان توسط پزشکان از نمونه‌های بافتی مانند تصویر بالا  کمک کنند</figcaption>
+            </figure>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+        
+        
+        <section class="one-col-container course-part" data-section-title="تاریخچه هوش مصنوعی">
+            <h2 class="section-title">تاریخچه هوش مصنوعی</h2>
+            <p class="text"> اما توسعه هوش  مصنوعی از چه زمانی شروع شد و چگونه در زمان کوتاهی به یکی از تاثیر گذارترین و مهم ترین فناوری هاس ساخت بشر تبدیل شد. ددر این بخش تاریخچه مختصری از مهم ترین اتفاقات حوزه هوش مصنوعی را بررسی میکنیم</p>
+            
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+
+        
+        <section class="one-col-container course-part" data-section-title="تاریخچه هوش مصنوعی">
+            <p class="text">بر خلاف تصور رایج هوش مصنوعی حوزه جدیدی نیست و تحقیقات و پژوهش در این حوزه از سال ها پیش آغاز شده شده است. بنابراین اصطلاح هوش مصنوعی برای اولین بار در کجا و چه زمانی مطرح شد؟</p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+
+        <section class="one-col-container course-part"  data-section-title="تاریخچه هوش مصنوعی">
+            <h2 class="section-title">1950</h2>
+            <p class="text">
+                آلن تورینگ دانشمند برجسته حوزه علوم کامپیوتر،آزمونی را برای سنجش هوشمندی یک سیستم کامپیوتری طراجی کرد (که به آزمون تورینگ معروف است)
+            </p>
+            <p class="text">
+                در ابتدای فاز آزمون تورینگ را بررسی کردیم
+            </p>
+            <figure>
+                <img class="w-75 border-2 shadow" src='static/images/turing_working.webp' alt="آلن تورینگ">
+                <figcaption> (شخصی که در سمت راست تصویر است)تصویر آلن تورینگ </figcaption>
+            </figure>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+        <section class="one-col-container course-part" data-section-title="تاریخچه هوش مصنوعی">
+            <h2 class="section-title">1956</h2>
+            <p class="text">بر خلاف تصور رایج هوش مصنوعی حوزه جدیدی نیست و تحقیقات و پژوهش در این حوزه از سال ها پیش آغاز شده شده است. بانبراین اصطلاح هوش مصنوعی برای اولین بار در کجا و چه زمانی مطرح شد؟</p>
+            <p class="text">
+                اصطلاح هوش مصنوعی برای اولین بار توسط جان مک‌کارتی (که از او به‌عنوان پدر علم و دانش تولید ماشین‌های هوشمند یاد می‌شود) در کنفرانسی که در در دانشگاه دارتموث برگزار شده بود، استفاده شد. 
+            </p>
+            <p class="text">
+                از افرادی که در این کنفرانس شرکت داشتند میتوان به افرادی چون آلن نیول (دانشگاه کارنگی ملون)، هربرت سیمون (دانشگاه کارنگی ملون)، جان مک‌کارتی (دانشگاه MIT)، ماروین مینسکی (دانشگاه MIT) و آرتور ساموئل (شرکت IBM) اشاره کرد که از بنیان‌گذاران و رهبران پژوهش در زمینه هوش مصنوعی بودند.
+            </p>
+            <figure>
+                <img class="w-75 border-2 shadow" src='static/images/dartmooth.jpg' alt="تصویر تولید شده توسط هوش مصنوعی">
+                <figcaption>تصویر چند نفر ازبنیان گذاران و پیشروان حوزه هوشه مصنوعی در کنفرانس دارتموث</figcaption>
+            </figure>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+        <section class="one-col-container course-part" data-section-title="تاریخچه هوش مصنوعی">
+            <h2 class="section-title">1974 - 1980 , 1987 - 1993</h2>
+            <p class="text">
+                کاهش توجه و سرمایه گذاری در حوزه هوش مصنوعی و توقف تحقیقات دراین زمینه به دلایل متعدد از جمله مهم ترنی آن ها یعنی نبود امکانات پردازشی و سخت افزاری مناسب،  در فواصل زمانی ذکر شده باعث شد که از این دوره های زمانی  به عنوان زمستان هوش مصنوعی یاد شود
+
+            </p>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+        <section class="one-col-container course-part" data-section-title="تاریخچه هوش مصنوعی">
+            <h2 class="section-title">1997</h2>
+            <p class="text">
+                کامپیوتر deep blue  شرکت  ibm قهرمان شطرنج دنیا در آن زمان(کاسپاروف) را شکست داد
+            </p>
+            <figure>
+                <img class="w-75 border-2 shadow" src='static/images/Garry-Kasparov-Deep-Blue-IBM-computer.webp' alt="مسابقه گری کاسپارو در مقابل deep blue">
+                <figcaption>تقابل garry casparov قهرمان شطرنج دنیا و کامپیوتر deep blue متعلق به شرکت ibm
+                </figcaption>
+            </figure>
+            
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+        <section class="one-col-container course-part" data-section-title="تاریخچه هوش مصنوعی">
+            <h2 class="section-title">2011</h2>
+            <p class="text">
+                برنامه  Watson ا متعلق به شرکت ibm  در مسابقه اطلاعات عمومی Jeopardy  توانستدر رقابت با دو قهرمان دنیا به پیروزی رسید
+            </p>
+            <figure>
+                <img class="w-75 border-2 shadow" src='static/images/jeopardy_watson.webp' alt="هوش مصنوعی واتسون در مسابقه jeopardy">
+                <figcaption>رقابت هوش مصنوعی watson در مسابقه jeopardy در مقابل قهرمانان این رشته
+                </figcaption>
+            </figure>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+        <section class="one-col-container course-part" data-section-title="تاریخچه هوش مصنوعی">
+            <h2 class="section-title">2023</h2>
+            <p class="text">
+                دستاورد های جالب توجه و وقوع اتفاقات بزرگ در حوزه مصنوعی با انتشار ChatGPT محصول شرکت openAI و سرمایه گذاری عظیم و رقابت شدیدشرکت های بزرگ در توسعه ابزار های و تکنولوژی های هوشمند. به گونه ای که بسیاری این سال را به عنوان نقطه عطفی مهم در توسعه هوش مصنوعی بدانند.
+            </p>
+            <figure>
+                <img class="w-75 border-2 shadow" src='static/images/openAI.jpg' alt="مدیران شرکت openai">
+                <figcaption>از راست به چپ ایلیا سوتسکور،گرک براکمن، سم آلتمن، میرا موراتی مدیران ارشد و بنیان گذاران openAI
+                </figcaption>
+            </figure>
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section><!-- end of section -->
+        
+        <section class="one-col-container course-part" data-section-title="تاریخچه هوش مصنوعی">
+            <section class="quiz quiz-part">
+                
+                <p class="question-text">
+                    اصطلاح Artificial Intelligence برای اولین بار در چه سالی و توسط چه کسی مطرح شد؟
+                </p>
+                <div class="options body">
+                   
+                    <label class="q_option">سال ۱۹۵۰ - آلن تورینگ
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="q_option">سال ۱۹۵۷ - جان مک کارتی 
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="q_option">سال ۱۹۵۸ - آرتور ساموئل
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="q_option">سال ۱۹۶۰ - هربرت سیمون 
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    
+                    
+                </div>
+                <div class="submit-answer">
+                    <button class="submit-quiz-btn">
+                        <span class="correct emoji_item">&#127881; </span>
+                        <span class="incorrect emoji_item">&#128584;</span>
+                        <span class="submit_btn_text"> ثبت پاسخ</span>
+                    </button>
+                    
+                    <button class="show-explanation-btn">نمایش پاسخ</button>
+                </div>
+            </section><!-- end of quiz -->
+            <section class="quiz quiz-answer">
+                <div class="quiz-answer-txt body">
+                    <p class="text">
+                        اصطلاح هوش مصنوعی برای اولین بار توسط جان مک‌کارتی (که از او به‌عنوان پدر علم و دانش تولید ماشین‌های هوشمند یاد می‌شود) در کنفرانسی که در در دانشگاه دارتموث برگزار شده بود، استفاده شد. 
+                    </p>
+                    
+                </div>
+                <div class="qe-submit-section">
+                    <button class="show_question return-to-question-btn">بازگشت به سوال</button>
+                </div>
+    
+            </section><!-- end of quiz-answer -->
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section>
+
+        <section class="one-col-container course-part" data-section-title="تاریخچه هوش مصنوعی">
+            <section class="quiz quiz-part">
+                
+                <p class="question-text">
+                  کدام یک از گرینه های زیر جزو بازه زمانی تحت عنوان زمستان هوش مصنوعی نیست؟
+                </p>
+                <div class="options body">
+                   
+                    <label class="q_option">سال ۱۹۷۴ تا ۱۹۸۰ 
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="q_option">سال ۱۹۸۷ تا ۱۹۹۳ 
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="q_option">سال ۱۹۵۷ تا ۱۹۶۰ 
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    
+                    
+                </div>
+                <div class="submit-answer">
+                    <button class="submit-quiz-btn">
+                        <span class="correct emoji_item">&#127881; </span>
+                        <span class="incorrect emoji_item">&#128584;</span>
+                        <span class="submit_btn_text"> ثبت پاسخ</span>
+                    </button>
+                    
+                    <button class="show-explanation-btn">نمایش پاسخ</button>
+                </div>
+            </section><!-- end of quiz -->
+            <section class="quiz quiz-answer">
+                <div class="quiz-answer-txt body">
+                    <p class="text">
+                        در حد فاصل سال های 1974 - 1980  و 1987 - 1993 کاهش توجه و سرمایه گذاری در حوزه هوش مصنوعی اتفاق افتاد و باعث توقف تحقیقات دراین زمینه شد. از مهم ترین دلایل این اتفاق  نبود امکانات پردازشی و سخت افزاری مناسب در آن سال ها بود. به این دلیل از این دوره های زمانی به عنوان زمستان هوش مصنوعی یاد میشود. 
+                    </p>
+                    
+                </div>
+                <div class="qe-submit-section">
+                    <button class="show_question return-to-question-btn">بازگشت به سوال</button>
+                </div>
+    
+            </section><!-- end of quiz-answer -->
+            <div class="goto_next-section">
+                <button class="goto-next-btn"> قسمت بعدی</button>
+            </div>
+        </section>
+        
+        <section class="course-part one-col-container finish-part">
+            <div class="finish-con">
+                <button class="finish-btn green-btn">اتمام درس</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+
+
+
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/img_overlay.js"></script>
+    
+</body>
+
+</html>
