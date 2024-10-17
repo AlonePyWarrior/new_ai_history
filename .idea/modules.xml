@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AI history.iml" filepath="$PROJECT_DIR$/.idea/AI history.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/new_AI_History.iml" filepath="$PROJECT_DIR$/.idea/new_AI_History.iml" />
     </modules>
   </component>
 </project>
